@@ -2,7 +2,7 @@ import streamlit as st
 
 # --- Data ---
 solutions = {
-    "headache": "Take paracetamol and rest",
+    "headache": "Try resting and using a warm compress. If needed, a mild painkiller can help.",
     "stomach-ache": "Drink warm water and avoid spicy food",
     "migraine": "Stay in a dark room and hydrate",
     "overthinking": "Play this(https://www.youtube.com/watch?v=7wAb8_STOs4) , meIf doesnt work then Contact chinnu",
@@ -10,7 +10,7 @@ solutions = {
     "anxiety": "Immediately contact chinnu",
     "scared": "Immediately contact chinnu",
     "anxious": "Immediately contact chinnu",
-    "period pain": "Apply heat , drink something warm , If any moodswings contact chin",
+    "period ": "Apply heat , drink something warm , If any moodswings contact chin",
     "bored": "Try this https://www.clickastro.com/?ref=logo"
 }
 
@@ -36,16 +36,16 @@ if check:
     if not text:
         st.warning("Please type something first.")
     else:
-        matches = []
+        found = False
+
         for key, advice in solutions.items():
             if key in text:
-                matches.append((key, advice))
+                st.write(f"**{key.capitalize()}** → {advice}")
+                found = True
 
-        if matches:
-            st.success("Found these keywords:")
-            for k, a in matches:
-                st.write(f"**{k.capitalize()}** → {a}")
-        else:
-            st.info("No known keyword found.If you need emotional support contact Chin. OR Try: headache, fever, anxiety, bored, migraine, stomach-ache, overthinking.")
+        if not found:
+            st.info("I couldn’t understand that. If you want emotional support contact CHIN. OR Try saying things like headache, fever, anxiety, bored…")
+
 
 st.caption("⚠️ Not medical advice. If pain is severe, persistent, or worrying, see a doctor.")
+
