@@ -7,7 +7,7 @@ if "authenticated" not in st.session_state:
     st.session_state.authenticated = False
 
 if not st.session_state.authenticated:
-    entered = st.text_input("For Kanmani ", type="password")
+    entered = st.text_input("For Kanmani (enter password):", type="password")
 
 
     if entered == PASSWORD:
@@ -88,6 +88,7 @@ if check:
             st.info("I couldn’t understand that. If you want emotional support contact Chin OR Try saying things like headache, fever, anxiety, bored…")
 
 st.caption("Cutie ma I miss you come talk to me 🥺🥺.")
+
 
 
 
