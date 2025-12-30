@@ -59,18 +59,21 @@ if check:
         st.warning("Please type something first.")
     else:
         found = False
-st.caption("relax cutie baby chin made me precisely for this 💖")
+
+        st.write("relax cutie baby chin made me precisely for this 💖")
 
         for key, advice in solutions.items():
             if key in text:
-                st.write(f"**{key.capitalize()}** → {advice}")
+                st.markdown(f"• **{key.capitalize()}** — {advice}")
                 found = True
 
         if not found:
-            st.info("I couldn’t understand that. If you want emotional support contact CHIN. OR Try saying things like headache, fever, anxiety, bored…")
+            st.info("I couldn’t understand that. If you want emotional support contact Chin OR Try saying things like headache, fever, anxiety, bored…")
+
 
 
 st.caption("⚠️ Not medical advice. If pain is severe, persistent, or worrying, see a doctor.")
+
 
 
 
