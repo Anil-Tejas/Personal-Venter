@@ -49,7 +49,7 @@ solutions = {
 "lazy": "It’s okay to rest. Start with one small task. Use the 3 2 1 GO GO  GO !!!!! ",
 "unmotivated": "Do one tiny thing — momentum follows.",
 "confused": "Pause, write things down, and take it step by step.",
-"opika ledu": "Lie down take rest shut all devices and try to sleep for a while (inform chin before doing this mf will lose his mind without u.",
+"opika ledu": "Lie down take rest shut all devices and try to sleep for a while (inform chin before doing this mf will lose his mind without u.)",
 "overwhelmed": "Slow down and handle one thing at a time. Stop multitasking yes even listening to music STOP just do one thing at a time or go out get a cup of tea or coffee."
 }
 
@@ -87,7 +87,8 @@ if check:
         if not found:
             st.info("I couldn’t understand that. If you want emotional support contact Chin OR Try saying things like headache, fever, anxiety, bored…")
 
-st.caption("Cutie ma I miss you come talk to me 🥺🥺.")
+st.caption("Cutie maaaaaaaaaaaaaaaaaaaa I miss you come talk to me. I miss your bak bak 🥺🥺.")
+
 
 
 
