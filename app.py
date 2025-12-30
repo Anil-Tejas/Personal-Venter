@@ -59,7 +59,7 @@ if check:
         st.warning("Please type something first.")
     else:
         found = False
-st.write("**relax cutie baby chin made me precisely for this**")
+st.caption("relax cutie baby chin made me precisely for this 💖")
 
         for key, advice in solutions.items():
             if key in text:
@@ -71,6 +71,7 @@ st.write("**relax cutie baby chin made me precisely for this**")
 
 
 st.caption("⚠️ Not medical advice. If pain is severe, persistent, or worrying, see a doctor.")
+
 
 
 
