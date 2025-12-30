@@ -1,5 +1,13 @@
 import streamlit as st
 
+
+PASSWORD = "how you doing"
+
+entered = st.text_input("Enter password:", type="password")
+
+if entered != PASSWORD:
+    st.stop()
+
 # --- Data ---
 solutions = {
     "headache": "Try resting and using a warm compress. If needed, a mild painkiller can help.",
@@ -70,6 +78,7 @@ if check:
             st.info("I couldn’t understand that. If you want emotional support contact Chin OR Try saying things like headache, fever, anxiety, bored…")
 
 st.caption("Cutie ma I miss you come talk to me 🥺🥺.")
+
 
 
 
