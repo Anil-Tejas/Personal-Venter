@@ -5,7 +5,7 @@ solutions = {
     "headache": "Try resting and using a warm compress. If needed, a mild painkiller can help.",
     "stomach-ache": "Drink warm water and avoid spicy food",
     "migraine": "Stay in a dark room and hydrate",
-    "overthinking": "Play this(https://www.youtube.com/watch?v=7wAb8_STOs4) , meIf doesnt work then Contact chinnu",
+    "overthinking": "Play this(https://www.youtube.com/watch?v=7wAb8_STOs4) , If doesnt work then Contact chinnu",
     "fever": "Take rest and drink fluids",
     "anxiety": "Immediately contact chinnu",
     "scared": "Immediately contact chinnu",
@@ -13,27 +13,26 @@ solutions = {
     "period ": "Apply heat , drink something warm , If any moodswings contact chin",
     "stress": "Try slowing down, deep breathing, and taking short breaks.",
 "low mood": "Be kind to yourself today. Talking to someone you trust can help.",
-"lonely": "You’re not alone. Reach out to someone or do something comforting.",
+"lonely": "You’re not alone. Reach out to someone(me) or do something comforting(also me do me).",
 "panic": "Slow breathing can help. Try inhaling for 4 seconds, exhaling for 6.",
 "burnout": "You may need rest. Try stepping away and recharging.",
     "bored": "Try this https://www.clickastro.com/?ref=logo",
     "back pain": "Gentle stretching and rest may help. Avoid heavy lifting.",
 "neck pain": "Try light stretches and check your posture.",
-"period pain": "A heating pad, rest, and hydration can help.",
 "body ache": "Rest, fluids, and light movement may reduce discomfort.",
 "muscle pain": "Gentle stretching and rest can help recovery.",
 "nausea": "Small sips of water and rest may help.",
-"indigestion": "Avoid heavy food and eat slowly.",
+"indigestion": "Avoid heavy food and eat slowly. Stop trying to eat fast fast slowwwwly bite everything for 30 bites at start",
 "acidity": "Try avoiding spicy food and lying down immediately after eating.",
-"constipation": "Hydration and fiber-rich foods may help.",
+"constipation": "Hydration and fiber-rich foods may help. Eat banana or orange",
     "cold": "Rest, fluids, and warmth can help recovery.",
 "cough": "Warm fluids and rest may soothe irritation.",
 "sore throat": "Warm drinks and rest may help.",
 "dizziness": "Sit or lie down and hydrate. Seek help if it persists.",
-"lazy": "It’s okay to rest. Start with one small task.",
+"lazy": "It’s okay to rest. Start with one small task. Use the 3 2 1 GO GO  GO !!!!! ",
 "unmotivated": "Do one tiny thing — momentum follows.",
 "confused": "Pause, write things down, and take it step by step.",
-"overwhelmed": "Slow down and handle one thing at a time."
+"overwhelmed": "Slow down and handle one thing at a time. Stop multitasking yes even listening to music STOP just do one thing at a time or go out get a cup of tea or coffee."
 }
 
 st.set_page_config(page_title="Therapist Bot", page_icon="🩺")
@@ -73,6 +72,7 @@ if check:
 
 
 st.caption("⚠️ Not medical advice. If pain is severe, persistent, or worrying, see a doctor.")
+
 
 
 
