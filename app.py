@@ -29,7 +29,7 @@ solutions = {
     "cold": "Rest, fluids, and warmth can help recovery.",
 "cough": "Warm fluids and rest may soothe irritation.",
 "sore throat": "Warm drinks and rest may help.",
-"dizziness": "Sit or lie down and hydrate. Seek help if it persists."
+"dizziness": "Sit or lie down and hydrate. Seek help if it persists.",
 "lazy": "It’s okay to rest. Start with one small task.",
 "unmotivated": "Do one tiny thing — momentum follows.",
 "confused": "Pause, write things down, and take it step by step.",
@@ -71,6 +71,7 @@ st.caption("relax cutie baby chin made me precisely for this 💖")
 
 
 st.caption("⚠️ Not medical advice. If pain is severe, persistent, or worrying, see a doctor.")
+
 
 
 
