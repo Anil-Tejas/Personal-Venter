@@ -10,7 +10,7 @@ solutions = {
     "anxiety": "Immediately contact chinnu",
     "scared": "Immediately contact chinnu",
     "anxious": "Immediately contact chinnu",
-    "period ": "Apply heat , drink something warm , If any moodswings contact chin",
+    "period": "Apply heat , drink something warm , If any moodswings contact chin",
     "stress": "Try slowing down, deep breathing, and taking short breaks.",
 "low mood": "Be kind to yourself today. Talking to someone you trust can help.",
 "lonely": "You’re not alone. Reach out to someone(me) or do something comforting(also me do me).",
@@ -72,6 +72,7 @@ if check:
 
 
 st.caption("⚠️ Not medical advice. If pain is severe, persistent, or worrying, see a doctor.")
+
 
 
 
