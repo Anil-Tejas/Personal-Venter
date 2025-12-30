@@ -72,6 +72,8 @@ if check:
 
 
 st.caption("⚠️ Not medical advice. If pain is severe, persistent, or worrying, see a doctor.")
+st.caption("Cutie ma I miss you come talk to me 🥺🥺.")
+
 
 
 
